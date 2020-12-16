@@ -12,7 +12,7 @@ class Image:
         for self.y in range(height):
             self.image.append([])
             for _ in range(width):
-                self.image[self.y].append(Pixel('W'))
+                self.image[self.y].append(Pixel('G'))
 
     def set_color(self, color: str, x: int, y: int):
         if color in ['B', 'W', 'R', 'G']:
@@ -36,9 +36,10 @@ class Image:
 
 img = Image(5, 7)
 print(img)
-img.set_color(color="R", x=3, y=3)
-print(img)
 img.fill_rectangle(color="B", x1=3, y1=3, x2=5, y2=7)
 print(img)
+
+
+
 
 
