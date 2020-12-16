@@ -38,11 +38,8 @@ img = Image(5, 7)
 print(img)
 img.fill_rectangle(color="B", x1=3, y1=3, x2=5, y2=7)
 print(img)
-img.fill_rectangle(color="R", x1=4, y1=5, x2=5, y2=7)
-print(img)
 img.fill_rectangle(color="W", x1=4, y1=5, x2=5, y2=7)
 print(img)
-
 
 
 
